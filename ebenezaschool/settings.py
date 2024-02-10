@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-qy(ga%b9-s*6ooyyo+o*u(7%axw#x8usuue)#$azv2dm39f#)0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ebenezaschoolsystem.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app','127.0.0.1']
 
 
 # Application definition
