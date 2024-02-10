@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EbenezaChristianSchool</title>
+    <link rel="shortcut icon" href="{% static 'Image/images.png' %}">
+    <link rel="stylesheet" href="{% static 'style/LandingPage.css' %}">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li>
+                    <a href="{% url 'login' %}" class="login-btn"> Log in </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h4>Ebeneza Christian School Portal</h4>
+            <img class="logo" src="{% static 'Image/images.png' %}" alt="">
+            <div class="header-text-1">
+                Join us and achieve your academic goals
+            </div>
+            <button class="btn btn-cta">
+                Register for classes
+            </button>
+        </div>
+    </header>
+    <script src='{% static "home.js" %}'></script>
+</body>
+</html>
