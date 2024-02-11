@@ -149,3 +149,4 @@ AUTH_USER_MODEL='ebenezamanagement.User'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+CSRF_TRUSTED_ORIGINS=['https://ebenezaschoolsystem-1z2smscm8-inonda06.vercel.app/','http://127.0.0.1:8000']
