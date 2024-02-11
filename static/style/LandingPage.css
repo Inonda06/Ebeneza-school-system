@@ -177,23 +177,6 @@ header .header-text-2{
     text-align: left;
 }
 
-.cover-1{
-    background: url(/static/Images/download.jfif) no-repeat center center / cover;
-}
-
-.cover-2{
-    background: url(/static/Images/images1.jfif) no-repeat center center / cover;
-}
-
-.cover-3{
-    background: url(/static/Images/339255404_1864541567249968_1529550918041222729_n.jpg) no-repeat center center / cover;
-}
-
-.cover-4{
-    background: url(/static/Images/download\ \(2\).jfif) no-repeat center center / cover;
-}
-
-
 
 @media(max-width: 700px){
     .header .logo{
