@@ -7,8 +7,8 @@ body{
     color: #fff;
     line-height: 1.7;
     overflow-x: hidden;
-    background-image: url('/static/Image/images.jpeg');
-    filter: brightness(80%);
+    background: url('/static/Image/images.jpeg');
+    filter: brightness(100%);
 }
 
 a{
