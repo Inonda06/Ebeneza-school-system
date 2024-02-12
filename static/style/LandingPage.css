@@ -7,7 +7,7 @@ body{
     color: #fff;
     line-height: 1.7;
     overflow-x: hidden;
-    background: url('/static/Image/images.jpeg');
+    background: url(static/Image/images.jpeg);
     filter: brightness(100%);
 }
 
