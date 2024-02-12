@@ -30,7 +30,7 @@ img{
 
 .header{
     height: 530px;
-    background-image:url(/static/Image/images.jpeg) ;
+    background-image:linear-gradient(rgba(0,0,5,0.8),rgba(0,0,5,0.8)), url(/img/pagnyangori.jfif) ;
     background-position: center;
     background-size: cover;
     position: relative;
