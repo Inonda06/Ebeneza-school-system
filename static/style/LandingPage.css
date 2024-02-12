@@ -7,7 +7,8 @@ body{
     color: #fff;
     line-height: 1.7;
     overflow-x: hidden;
-    background-color: black;
+    background-image: url('/static/Image/images.jpeg');
+    filter: brightness(80%);
 }
 
 a{
@@ -31,11 +32,9 @@ img{
 
 .header{
     height: 100vh;
-    background-image: url(/static/Image/images\ \(1\).jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
-    filter: brightness(80%);
 }
 
 .header nav{
@@ -52,14 +51,14 @@ img{
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    filter: brightness(180%);
+    filter: brightness(100%);
 }
 
 .header .logo{
     width: 270px;
     margin: 20px 0;
     border-radius: 25px;
-    filter: brightness(180%);
+    filter: brightness(100%);
 }
 
 .header .header-content{
