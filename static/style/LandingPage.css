@@ -8,7 +8,9 @@ body{
     line-height: 1.7;
     overflow-x: hidden;
     background: url(static/Image/images.jpeg);
-    filter: brightness(100%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 a{
@@ -32,9 +34,6 @@ img{
 
 .header{
     height: 100vh;
-    background-position: center;
-    background-size: cover;
-    position: relative;
 }
 
 .header nav{
