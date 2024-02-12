@@ -151,5 +151,3 @@ AUTH_USER_MODEL='ebenezamanagement.User'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_TRUSTED_ORIGINS=['https://ebenezaschoolsystem-1z2smscm8-inonda06.vercel.app/','http://127.0.0.1:8000','https://ebenezaschoolsystem.vercel.app/']
 
-if DEBUG == False:
-    STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
