@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-qy(ga%b9-s*6ooyyo+o*u(7%axw#x8usuue)#$azv2dm39f#)0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app','127.0.0.1']
 
@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'ebenezaschool.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Ebeneza',
-        'HOST': 'postgresql-162941-0.cloudclusters.net',
-        'PORT': 10005,
-        'USER': 'davidinonda',
+        'NAME': 'Ebenezer',
+        'HOST': 'postgresql-164742-0.cloudclusters.net',
+        'PORT': 16654,
+        'USER': 'DavidInonda',
         'PASSWORD': 'Inonda06%'
     }
 }
